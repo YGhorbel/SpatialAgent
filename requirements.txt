@@ -1,6 +1,11 @@
-numpy==1.26.4
-matplotlib==3.10.3
-pillow==11.2.1
-tqdm==4.67.1
-pycocotools==2.0.8
-pandas==2.2.3
+numpy
+matplotlib
+pillow
+tqdm
+pycocotools
+pandas
+boto3
+streamlit
+google-genai
+torch
+torchvision

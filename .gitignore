@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data and Models - These are on S3!
+data/
+*.pth
+*.json
+!val.json # Keep val.json if it is small enough and needed for reference, but based on size maybe exclude?
+# The output showed val.json is 15MB, that's okay for git but maybe border line. 
+# The user's prompt said "the images already in S3 bucket". 
+# Usually we want code only. 
+
+# Environment variables
+.env
+
+# OS
+.DS_Store
+Thumbs.db
